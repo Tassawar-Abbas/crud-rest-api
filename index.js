@@ -19,7 +19,7 @@ mongoose.connect(MONGOURL)
     console.log(err)
 })
 
-app.use('/api/employee',route)
+app.use('/api/employe',route)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
